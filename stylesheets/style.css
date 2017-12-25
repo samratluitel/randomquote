@@ -1,0 +1,51 @@
+body{
+    background: #fc4a1a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);
+    background: linear-gradient(to right, #f7b733, #fc4a1a); 
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30vh;
+}
+.quote-container{
+    margin: 0 auto;
+    width:0.1%;
+    height:150px;
+    border: 3px solid white;
+    opacity: 0;
+    color:white;
+    padding:15px;
+}
+.button-container{
+    width:60%;
+    margin: 0 auto;
+    padding-left:40%;
+    padding-top: 40px;
+}
+#quote{
+    font-size:25px;
+    opacity: 0;
+}
+#author{
+    font-size:20px;
+    opacity: 0;
+}
+#btn{
+    background:#DE4C92;
+    border: none;
+    color:white;
+    width:30%;
+    height:50px;
+    border-radius: 10px;
+    font-size:18px;  
+    box-shadow: 0 9px rgb(228, 143, 184);
+}
+
+#btn:hover {background-color: rgb(224, 34, 126);}
+
+#btn:active {
+  background-color: #DE4C92;
+  box-shadow: 0 5px rgb(228, 143, 184);
+  transform: translateY(4px);
+}
